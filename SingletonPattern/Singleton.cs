@@ -1,6 +1,6 @@
 public sealed class Singleton
 {
-    private static volatile Singleton instance = new Singleton();
+    private static readonly Singleton instance = new Singleton();
     private static int numberOfInstances = 0;
     private Singleton()
     {
