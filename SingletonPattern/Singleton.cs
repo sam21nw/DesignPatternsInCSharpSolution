@@ -14,7 +14,6 @@ public sealed class Singleton
         get
         {
             System.Console.WriteLine("We already have an instance now. Use it.");
-            System.Console.WriteLine($"Number of Instances = {numberOfInstances}");
             return instance;
         }
     }
